@@ -79,6 +79,8 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'The person is diabetic'
         else:
           diab_diagnosis = 'The person is not diabetic'
+     else:
+        diab_diagnosis = "Please enter the values"
         
     st.success(diab_diagnosis)
 
